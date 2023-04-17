@@ -1,7 +1,11 @@
 from django.shortcuts import render
-from .models import Categories
+from store.models import Product
 
 # Create your views here.
 
-def index(request):
-    return render(request, 'giftzone/index.html')
+def home(request):
+    products = Product.objects.all()[0:5]
+
+    return render(request, 'giftzone/home.html', {
+        'products': products
+    })
