@@ -6,6 +6,18 @@ Home
 
 {% block content %}
     {% for product in products %}
-        {{product.title}}
+        <div class="card text-bg-dark mb-3" style="width: 18rem;">
+
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href ="{% url 'product_details' product.slug %}">
+                        <h5 class="card-title">{{product.title}}</h5>
+                    </a>
+                    <p class="card-text">£ {{product.price}}</p><p class="card-text">{{product.description}}</p>
+                    <a href="#" class="btn btn-primary">Add to cart</a>
+                </div>
+
+        </div>
+
     {% endfor %}
 {% endblock %}
