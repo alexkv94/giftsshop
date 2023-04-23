@@ -6,3 +6,6 @@ def product_details(request, slug):
     return render(request, 'store/product_details.html', {
         'product': product
     })
+
+def category_extra(request, slug):
+    return render(request, 'store/categories.html')

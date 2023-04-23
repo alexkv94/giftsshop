@@ -1,4 +1,5 @@
 {% load static %}
+{% load menu_content %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,19 +12,22 @@
 </head>
 <body>
     <ul class="nav justify-content-end bg-black">
-  <li class="nav-item">
-    <a class="nav-link link text-white" aria-current="page" href="#">GiftZone</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link text-white" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link text-white" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled ">Disabled</a>
-  </li>
-</ul>
+        <li class="nav-item">
+            <a class="nav-link link text-white" aria-current="page" href="#">GiftZone</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu</a>
+            <ul class="dropdown-menu bg-black" aria-labelledby="navbarDropdownMenuLink">
+                {% menu_content %}
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled ">Disabled</a>
+        </li>
+    </ul>
     {% block content %}{% endblock %}
     <script src="{% static 'js/script.js' %}"></script>
     {% block additional_js %}{% endblock %}
