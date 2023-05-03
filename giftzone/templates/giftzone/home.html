@@ -7,10 +7,11 @@ Home
 {% block content %}
     {% for product in products %}
         <div class="card text-bg-dark mb-3" style="width: 18rem;">
-
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <a href ="{% url 'product_details' product.slug %}">
+            {% if product.image %}
+                    <img src="{{ product.image.url }}" class="card-img-top" alt=" {{product.title}} image">
+            {% endif %}
+            <div class="card-body">
+                    <a href ="{% url 'product_details' product.category.slug product.slug %}">
                         <h5 class="card-title">{{product.title}}</h5>
                     </a>
                     <p class="card-text">£ {{product.price}}</p><p class="card-text">{{product.description}}</p>

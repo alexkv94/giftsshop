@@ -1,0 +1,23 @@
+{% extends 'giftzone/layout.html' %}
+
+{% block title %}{{ category.title }}{% endblock %}
+
+{% block content %}
+
+    <h1>{{ category.title}}</h1>
+    {% for product in products %}
+        <div class="card text-bg-dark mb-3" style="width: 18rem;">
+            {% if product.image %}
+                    <img src="{{ product.image.url }}" class="card-img-top" alt=" {{product.title}} image">
+            {% endif %}
+
+            <div class="card-body">
+                <a href ="{% url 'product_details' product.category.slug product.slug %}">
+                    <h5 class="card-title">{{product.title}}</h5>
+                </a>
+                <p class="card-text">£ {{product.price}}</p><p class="card-text">{{product.description}}</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+    {% endfor %}
+    </div>
+{% endblock %}
