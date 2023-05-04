@@ -14,3 +14,11 @@ def category_extra(request, slug):
         'category': category,
         'products': products
     })
+
+def search(request):
+    search_query = request.GET.get('search_query', '')
+    products = Product.objects.filter(title__icontains=search_query)
+    return render(request, 'store/search.html', {
+        'search_query': search_query,
+        'products': products
+    })
