@@ -1,0 +1,139 @@
+commit 3dab5c4f28f8c00deebf502682aee28e37890df1
+Author: alexkv94 <101505335+alexkv94@users.noreply.github.com>
+Date:   Fri May 5 23:31:18 2023 +0100
+
+    changes
+
+commit aaf893de7ed0239405b4621ff314cf00cda76ac9
+Author: alexkv94 <101505335+alexkv94@users.noreply.github.com>
+Date:   Fri May 5 23:30:57 2023 +0100
+
+    updated readme
+
+commit b53c9caf89c25862e30dc20ab4657e96a880132c
+Author: alexkv94 <101505335+alexkv94@users.noreply.github.com>
+Date:   Fri May 5 20:02:16 2023 +0100
+
+    added allowed host
+
+commit 12d9d1fa4249ff24e16fd44d5f70ccf80811951f
+Author: alexkv94 <101505335+alexkv94@users.noreply.github.com>
+Date:   Fri May 5 19:47:46 2023 +0100
+
+    updated requirements.txt
+
+commit d19543f16fa5306c851993359abfa5659aa4b31d
+Author: alexkv94 <101505335+alexkv94@users.noreply.github.com>
+Date:   Fri May 5 19:46:51 2023 +0100
+
+    updated requirements.txt
+
+commit 01988c059493eda96daad8676fcfcca19fc21690
+Author: alexkv94 <101505335+alexkv94@users.noreply.github.com>
+Date:   Fri May 5 19:34:09 2023 +0100
+
+    updated requirements.txt
+
+commit 304d8d71870adfc104578ae0a2a8ea8d571f3c22
+Author: alexkv94 <101505335+alexkv94@users.noreply.github.com>
+Date:   Fri May 5 19:31:15 2023 +0100
+
+    updated requirements.txt
+
+commit 71e206b3a090871977c87eb35b43edbe470f5601
+Author: alexkv94 <101505335+alexkv94@users.noreply.github.com>
+Date:   Fri May 5 19:20:58 2023 +0100
+
+    modified parse
+
+commit ca94f6344b1f38b218c7357df383f37946e962b7
+Author: alexkv94 <101505335+alexkv94@users.noreply.github.com>
+Date:   Fri May 5 19:11:32 2023 +0100
+
+    added requirements txt
+
+commit 038687cdbfed411a3395e2bd11aa9338933c181a
+Author: alexkv94 <101505335+alexkv94@users.noreply.github.com>
+Date:   Fri May 5 17:27:32 2023 +0100
+
+    added csv file to directory
+
+commit 2d55437a6340ef1fca30dc7dac02f51333051f38
+Author: alexkv94 <101505335+alexkv94@users.noreply.github.com>
+Date:   Fri May 5 17:26:12 2023 +0100
+
+    Added csv file
+
+commit 17631d92edb9609df7712a1a6687f9d6fb5ed62a
+Author: alexkv94 <101505335+alexkv94@users.noreply.github.com>
+Date:   Fri May 5 17:23:21 2023 +0100
+
+    added csv parsing file
+
+commit 17753f88698aab09abdd4d7f92e45f9ddb20566b
+Author: alexkv94 <101505335+alexkv94@users.noreply.github.com>
+Date:   Fri May 5 16:30:49 2023 +0100
+
+    added partial cart
+
+commit 00100de06d9e6c3d8600d204593e7d98aaeba7ff
+Author: alexkv94 <101505335+alexkv94@users.noreply.github.com>
+Date:   Thu May 4 15:48:08 2023 +0100
+
+    added search functionality
+
+commit ac46195685e8517e955cb657de77f76e6070a1bd
+Author: alexkv94 <101505335+alexkv94@users.noreply.github.com>
+Date:   Wed May 3 13:22:36 2023 +0100
+
+    added image handling
+    
+    clear
+
+commit 114cabd07984390fccf1c2e1d0352bbcb8c22fcb
+Author: alexkv94 <101505335+alexkv94@users.noreply.github.com>
+Date:   Sun Apr 23 21:56:13 2023 +0100
+
+    added categories
+
+commit 223b6cc415a9dbfb89eb4fd81904051037b84df1
+Author: alexkv94 <101505335+alexkv94@users.noreply.github.com>
+Date:   Tue Apr 18 23:14:12 2023 +0100
+
+    added product details page
+
+commit f609fbc2b5dda6a45be0700978fa0f5019d1ea97
+Author: alexkv94 <101505335+alexkv94@users.noreply.github.com>
+Date:   Mon Apr 17 11:28:17 2023 +0100
+
+    modified models in giftzone
+
+commit b6d540cb482d3ddf1fc33ed0cdccc90cd0cbd9d7
+Author: alexkv94 <101505335+alexkv94@users.noreply.github.com>
+Date:   Mon Apr 17 11:13:08 2023 +0100
+
+    added app for store
+
+commit 9d8cc76161412baa0b00ca73b7851bf6f17528c9
+Author: alexkv94 <101505335+alexkv94@users.noreply.github.com>
+Date:   Sun Apr 16 15:02:43 2023 +0100
+
+    added untracked files for new app users
+
+commit 40621ef3b01d813eb54b7dfdc94acd0b5dcfb4e1
+Author: alexkv94 <101505335+alexkv94@users.noreply.github.com>
+Date:   Sun Apr 16 14:44:11 2023 +0100
+
+    created new app for users
+
+commit 19a708f1df07dd5ac43962caa4488c918d637d01
+Author: alexkv94 <101505335+alexkv94@users.noreply.github.com>
+Date:   Mon Apr 10 23:14:05 2023 +0100
+
+    initial commit
+
+commit 01dce6f2f924ce09f905161fe756abc01a373db0
+Author: alexkv94 <101505335+alexkv94@users.noreply.github.com>
+Date:   Sat Apr 8 18:17:06 2023 +0100
+
+    Initial commit
