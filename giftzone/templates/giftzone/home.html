@@ -15,7 +15,7 @@ Home
                         <h5 class="card-title">{{product.title}}</h5>
                     </a>
                     <p class="card-text">£ {{product.price}}</p><p class="card-text">{{product.description}}</p>
-                    <a href="#" class="btn btn-primary">Add to cart</a>
+                    <a href="{% url 'add_to_cart' product.id %}" class="btn btn-primary">Add to cart</a>
                 </div>
 
         </div>
