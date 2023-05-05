@@ -1,0 +1,24 @@
+a3c0645	alexkv94	Fri May 5 23:42:22 2023	added git log
+3dab5c4	alexkv94	Fri May 5 23:31:18 2023	changes
+aaf893d	alexkv94	Fri May 5 23:30:57 2023	updated readme
+b53c9ca	alexkv94	Fri May 5 20:02:16 2023	added allowed host
+12d9d1f	alexkv94	Fri May 5 19:47:46 2023	updated requirements.txt
+d19543f	alexkv94	Fri May 5 19:46:51 2023	updated requirements.txt
+01988c0	alexkv94	Fri May 5 19:34:09 2023	updated requirements.txt
+304d8d7	alexkv94	Fri May 5 19:31:15 2023	updated requirements.txt
+71e206b	alexkv94	Fri May 5 19:20:58 2023	modified parse
+ca94f63	alexkv94	Fri May 5 19:11:32 2023	added requirements txt
+038687c	alexkv94	Fri May 5 17:27:32 2023	added csv file to directory
+2d55437	alexkv94	Fri May 5 17:26:12 2023	Added csv file
+17631d9	alexkv94	Fri May 5 17:23:21 2023	added csv parsing file
+17753f8	alexkv94	Fri May 5 16:30:49 2023	added partial cart
+00100de	alexkv94	Thu May 4 15:48:08 2023	added search functionality
+ac46195	alexkv94	Wed May 3 13:22:36 2023	added image handling
+114cabd	alexkv94	Sun Apr 23 21:56:13 2023	added categories
+223b6cc	alexkv94	Tue Apr 18 23:14:12 2023	added product details page
+f609fbc	alexkv94	Mon Apr 17 11:28:17 2023	modified models in giftzone
+b6d540c	alexkv94	Mon Apr 17 11:13:08 2023	added app for store
+9d8cc76	alexkv94	Sun Apr 16 15:02:43 2023	added untracked files for new app users
+40621ef	alexkv94	Sun Apr 16 14:44:11 2023	created new app for users
+19a708f	alexkv94	Mon Apr 10 23:14:05 2023	initial commit
+01dce6f	alexkv94	Sat Apr 8 18:17:06 2023	Initial commit
