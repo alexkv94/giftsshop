@@ -31,7 +31,7 @@ LOGOUT_REDIRECT_URL = 'home'
 CART_SESSION_ID = 'cart'
 SESSION_COOKIE_AGE = 259200
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['giftzone-service.onrender.com']
 
 
 # Application definition
