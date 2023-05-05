@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 from django.db import models
 from django.core.management.base import BaseCommand, CommandError
-from .models import Category, Product
+from store.models import Category, Product
 
 # CSV file is location
 csv_filepath = '/CSVData/datashortened.csv.csv'
