@@ -9,7 +9,7 @@ In this project multiple apps are created to handle each aspect of the website. 
 
 ## Tables
 For displaying products and categories, two tables with the same name are created with categories being the common attribute among them. The attribute 'category' is the foreign key for 'Products' table.
-
+Used faker to generate fake descriptioin.
 ## Requirements
 To run the application, use the following command so that all the requirements will be installed to the virtual environment.
 
