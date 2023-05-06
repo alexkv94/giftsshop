@@ -8,12 +8,15 @@ def add_to_cart(request, product_id):
     cart.add(product_id)
 
     return redirect('home')
+
+
 def product_details(request, category_slug, slug):
     product = get_object_or_404(Product, slug=slug)
 
     return render(request, 'store/product_details.html', {
         'product': product
     })
+
 
 def category_extra(request, slug):
     category = get_object_or_404(Category, slug=slug)
@@ -22,6 +25,7 @@ def category_extra(request, slug):
         'category': category,
         'products': products
     })
+
 
 def search(request):
     search_query = request.GET.get('search_query', '')
@@ -32,11 +36,9 @@ def search(request):
     })
 
 
-
 def view_cart(request):
     cart = Cart(request)
 
     return render(request, 'store/cart.html', {
         'cart': cart
     })
-

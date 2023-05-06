@@ -21,20 +21,24 @@
             </div>
         </li>
         <li class="nav-item">
-            <a class="nav-link link text-white" aria-current="page" href="#">GiftZone</a>
+            <a class="nav-link link text-white" aria-current="page" href="{% url 'home' %}">GiftZone</a>
         </li>
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu</a>
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categories</a>
             <ul class="dropdown-menu bg-black" aria-labelledby="navbarDropdownMenuLink">
                 {% menu_content %}
             </ul>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-white" href="#">Link</a>
+            <a class="nav-link text-white" href={% url 'view_cart' %}>Cart</a>
         </li>
         {% if request.user.is_authenticated %}
             <li class="nav-item">
                 <a class="nav-link text-white" href={% url 'accountinfo' %}>Account</a>
+            </li>
+        {% else %}
+            <li class="nav-item">
+                <a class="nav-link text-white" href={% url 'user_signup' %}>Sign-up</a>
             </li>
         {% endif %}
     </ul>

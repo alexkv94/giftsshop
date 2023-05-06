@@ -2,7 +2,6 @@ import csv
 from faker import Faker
 from django.utils.text import slugify
 from pathlib import Path
-from decimal import Decimal
 from django.core.exceptions import ValidationError
 from django.core.management.base import BaseCommand, CommandError
 from store.models import Category, Product
