@@ -11,7 +11,9 @@ def add_to_cart(request, product_id):
 
 
 def product_details(request, category_slug, slug):
-    product = get_object_or_404(Product, slug=slug)
+
+    products = Product.objects.filter(category__slug=category_slug, slug=slug)
+    product = products.first()  # choose the first object from the QuerySet
 
     return render(request, 'store/product_details.html', {
         'product': product
